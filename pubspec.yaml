@@ -1,0 +1,56 @@
+name: centralemeuble_employe
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  pdfx: ^2.9.2
+  youtube_player_flutter: ^9.0.3
+  flutter_widget_from_html: ^0.17.0
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.0
+  cupertino_icons: ^1.0.8
+  flutter_animate: ^4.5.0  # ✨ للـ animations
+  shimmer: ^3.0.0  # ✨ لـ loading effect
+  path_provider: ^2.1.3
+  share_plus: ^7.2.2
+  printing: ^5.12.0
+  flutter_local_notifications: ^18.0.1  # ⭐ الإشعارات المحلية
+  sqflite: ^2.4.1  # ⭐ قاعدة بيانات محلية لسجل الإشعارات
+  path: ^1.9.0  # ⭐ مطلوب مع sqflite لبناء مسار قاعدة البيانات
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
